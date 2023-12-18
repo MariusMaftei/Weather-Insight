@@ -1,0 +1,17 @@
+.nightAmbient {
+  background: rgb(14, 14, 15);
+  transition: ease 0.8s all;
+}
+
+.dayAmbient {
+  background: #dbe4f3;
+  transition: ease 0.8s all;
+}
+
+.dayAmbient a {
+  color: rgb(14, 14, 15);
+}
+
+.nightAmbient a {
+  color: #dbe4f3;
+}

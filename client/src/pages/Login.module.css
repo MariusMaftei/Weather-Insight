@@ -1,0 +1,44 @@
+.login {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.login h1 {
+  color: #fff;
+}
+
+.login input {
+  margin: 15px 0px;
+  padding: 10px 50px;
+}
+
+.login label {
+  text-align: left;
+  color: #fff;
+}
+
+.formControl {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding: 20px;
+  background: rgba(0, 0, 0, 0.8);
+  margin-top: 50px;
+}
+
+.loginButton {
+  margin-top: 20px;
+  padding: 10px;
+}
+
+.loginButton:disabled {
+  cursor: not-allowed;
+}
+
+.redirectButton {
+  margin-top: 10px;
+  text-align: left;
+  color: #fff;
+}

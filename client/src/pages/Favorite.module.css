@@ -1,0 +1,95 @@
+.container {
+  width: 100%;
+  height: calc(100vh - 10rem);
+  /* height: 100%; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.content {
+  width: 90%;
+  height: 90%;
+  max-width: 1450px;
+}
+
+@media screen and (min-width: 50px) and (max-width: 1000px) {
+  .content {
+    width: 100%;
+  }
+}
+
+.favoriteList {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 20px;
+  background: white;
+  margin: 50px;
+}
+
+.favoriteList img {
+  width: 60px;
+}
+
+@media screen and (min-width: 600px) and (max-width: 1000px) {
+  .favoriteList img {
+    width: 30px;
+  }
+}
+
+@media screen and (min-width: 50px) and (max-width: 600px) {
+  .favoriteList img {
+    width: 20px;
+  }
+}
+
+.favoriteList button {
+  width: 120px;
+  height: 35px;
+  background: black;
+  color: aliceblue;
+  border: none;
+  border-radius: 5px;
+  font-size: 0.85rem;
+}
+
+@media screen and (min-width: 50px) and (max-width: 1000px) {
+  .favoriteList button {
+    width: 150px;
+    font-size: 12px;
+  }
+}
+
+@media screen and (min-width: 50px) and (max-width: 600px) {
+  .favoriteList button {
+    width: 100px;
+  }
+}
+
+.locationInfo {
+  width: 200px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.locationInfo span {
+  font-size: 1.3rem;
+  font-weight: 500;
+}
+
+@media screen and (min-width: 50px) and (max-width: 1000px) {
+  .locationInfo span {
+    font-size: 1rem;
+  }
+}
+
+@media screen and (min-width: 50px) and (max-width: 600px) {
+  .locationInfo span {
+    font-size: 12px;
+  }
+}

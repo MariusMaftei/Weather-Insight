@@ -1,0 +1,58 @@
+.container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.content {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  max-width: 90%;
+}
+
+@media screen and (min-width: 50px) and (max-width: 1600px) {
+  .content {
+    flex-direction: column;
+  }
+}
+
+.cityMap {
+  width: 100%;
+  height: 790px;
+}
+
+@media screen and (min-width: 50px) and (max-width: 500px) {
+  .cityMap {
+    height: 500px;
+  }
+}
+
+.cardsContainer {
+  gap: 20px;
+  margin-left: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-end;
+}
+
+@media screen and (min-width: 50px) and (max-width: 1600px) {
+  .cardsContainer {
+    flex-direction: row;
+    gap: none;
+    margin: 25px 0 0 0;
+    width: 100%;
+    max-width: 650px;
+    justify-content: center;
+  }
+}
+
+@media screen and (min-width: 50px) and (max-width: 800px) {
+  .cardsContainer {
+    width: 100%;
+  }
+}

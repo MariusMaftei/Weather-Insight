@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  margin: 25px;
+}
+
+.button {
+  height: 70px;
+  width: 70px;
+  position: relative;
+}
+
+.selection {
+  position: absolute;
+  background: #fce657;
+  height: 70px;
+  width: 70px;
+  border-radius: 50%;
+  text-align: center;
+  cursor: pointer;
+}
+
+.on {
+  transform: translate(-50px);
+  background: linear-gradient(225deg, #6e6a6a, #dbe4f3);
+  box-shadow: -3px -3px 5px 0px #ffffffa6, 3px 3px 5px 0px #0000004a;
+  transition: all 0.5s ease-in-out;
+}
+
+.off {
+  box-shadow: -3px 0px 4px 5px #f6d147 inset, 2px 1px 10px 1px #de9724;
+  transition: all 0.5s ease-in-out;
+}
+
+.on:hover {
+  box-shadow: -3px -3px 15px 5px #ffffffa6, 8px 8px 15px 5px #0000004a;
+}
+
+.active {
+  transform: translate(0);
+}
